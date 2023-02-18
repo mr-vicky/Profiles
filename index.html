@@ -9,33 +9,79 @@
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Headland+One&display=swap" rel="stylesheet">
     <title>Profiles</title>
   </head>
+
+  <!--****************************************************  CSS **************************************************************--> 
   <style>
     * {
         margin: 0;
         padding: 0;
         font-family: 'Dela Gothic One', cursive;
         font-family: 'Headland One', serif;
-        /* font-weight: bolder; */
         font-size: 35px;
-        color: #2d592d;
-        color: black;
+
+    }
+
+    .nav{
+      align-items: center;
+      align-content: center;
+    }
+
+    .nav button{
+      background-color: #1c1515;
+      color: white;
+      border: 1px solid white;
+      height: 45px;
+      width: 120px;
+      border-radius: 14px;
+      margin-left: 505px;
+      margin-top: 23px;
+      font-size: 17px;
+    }
+
+    .nav button:hover{
+      background-color: #1c1515;
+      color: white;
+      border: 1px solid white;
+      height: 45px;
+      width: 120px;
+      border-radius: 14px;
+      margin-left: 505px;
+      margin-top: 23px;
+      font-size: 17px;
+      cursor: pointer;
 
     }
 
     h1{
         font-size: 40px;
         text-align: center;
-        /* background-color: black;
-        color: white; */
-        /* font-weight: bold; */
-        margin: 5px;
-        
+        color: #15a715;
+        margin-left: 45%;
+        display: inline-block;
+    }
 
+    /* .dark-mode-image{
+      height: 45px;
+      width: 45px;
+      border-radius: 30px;
+      margin-left: 38%;
+      margin-top: 12px;
+    } */
+
+    .dark-mode {
+      background-color: black;
+      color: #15a715;
+      /* color: black; */
+    }
+
+    .dark-mode-box{
+      background-color: red;
     }
 
     h2{
         text-align: center;
         font-size: 31px;
+        color: #15a715;
 
     }
 
@@ -43,9 +89,6 @@
     .container {
       height: 717px;
       width: 100%;
-      /* background-color: rgb(218, 241, 244);
-      background-color: rgb(154 223 199); */
-      background-color: white;
 
       display: flex;
       flex-wrap: wrap;
@@ -55,8 +98,6 @@
     }
 
     .box {
-      /* background-color: rgb(154 223 199); */
-      /* background-color:  rgb(220 231 227);    */
       background-color: rgb(223 233 229);
       margin: 0px;
       padding: 23px;
@@ -68,8 +109,6 @@
     }
 
     .box:hover {
-      /* background-color: rgb(154 223 199);
-      background-color: rgb(174 218 203);    */
       margin: 0px;
       padding: 23px;
       width: 410px;
@@ -87,7 +126,7 @@
       justify-content: space-evenly;
       align-items: center;
     }
-    .image {
+    .box .image {
       width: 53px;
       height: 53px;
       background-color: black;
@@ -106,9 +145,32 @@
       margin: 5px;
     }
   </style>
+
+
   <body>
-    <h1>Profiles</h1>
+    <!--**************************************************** JavaScript **************************************************************--> 
+  
+
+  <script>
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
+
+
+
+  </script>
+
+<!-- ***************************************************** HTML ***************************************************************** -->
+    <div class="nav">
+      <h1>Profiles</h1>
+     
+        <button onclick="myFunction()">Dark Mode</button>
+
+    </div>
     <div class="container">
+
+      <!-- ----------------------------------------------Profile Nitesh ---------------------------------------------------------- -->
       <div class="box" id="box-1">
         <h2>Nitesh</h2>
         <div class="profiles">
@@ -133,6 +195,9 @@
           </a>
         </div>
       </div>
+
+      <!-- ----------------------------------------------Profile Shivani ---------------------------------------------------------- -->
+
       <div class="box" id="box-2">
         <h2>Shivani</h2>
         <div class="profiles">
@@ -157,6 +222,9 @@
           </a>
         </div>
       </div>
+
+      <!-- ----------------------------------------------Profile Ajay ---------------------------------------------------------- -->
+
       <div class="box" id="box-3">
         <h2>Ajay</h2>
         <div class="profiles">
@@ -181,6 +249,9 @@
           </a>
         </div>
       </div>
+
+      <!-- ----------------------------------------------Profile Prajakta ---------------------------------------------------------- -->
+      
       <div class="box" id="box-4">
         <h2>Prajakta</h2>
         <div class="profiles">
@@ -206,6 +277,7 @@
         </div>
       </div>
 
+      <!-- ----------------------------------------------Profile Prasad ---------------------------------------------------------- -->
       <div class="box" id="box-5">
         <h2>Prasad</h2>
         <div class="profiles">
@@ -231,6 +303,8 @@
         </div>
       </div>
 
+      <!-- ----------------------------------------------Profile Pratik ---------------------------------------------------------- -->
+      
       <div class="box" id="box-6">
         <h2>Pratik</h2>
         <div class="profiles">
@@ -255,6 +329,8 @@
           </a>
         </div>
       </div>
+
+      <!-- ----------------------------------------------Profile Vivek ---------------------------------------------------------- -->
 
       <div class="box" id="box-2">
         <h2>Vivek</h2>
@@ -281,5 +357,9 @@
         </div>
       </div>
     </div>
+
+
+  
+  
   </body>
 </html>
