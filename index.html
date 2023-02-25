@@ -4,31 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Headland+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Headland+One&display=swap"
+      rel="stylesheet"
+    />
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>Profiles</title>
   </head>
 
-    <!--**************************************************** CSS **************************************************************--> 
+  <!--**************************************************** CSS **************************************************************-->
 
   <style>
     * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Dela Gothic One', cursive;
-        font-family: 'Headland One', serif;
-        font-size: 35px;
-
+      margin: 0;
+      padding: 0;
+      font-family: "Dela Gothic One", cursive;
+      font-family: "Headland One", serif;
+      font-size: 35px;
     }
 
-    .nav{
+    .nav {
       align-items: center;
       align-content: center;
     }
 
-    .nav button{
+    .nav button {
       background-color: #1c1515;
       color: white;
       border: 1px solid white;
@@ -39,20 +41,19 @@
       margin-top: 23px;
       font-size: 17px;
       transition: all 0.23s ease-out;
-
     }
 
-    .nav button:hover{
+    .nav button:hover {
       cursor: pointer;
       transform: scale(1.03, 1.03);
     }
 
-    h1{
-        font-size: 40px;
-        text-align: center;
-        color: #15a715;
-        margin-left: 45%;
-        display: inline-block;
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      color: #15a715;
+      margin-left: 45%;
+      display: inline-block;
     }
 
     /* .dark-mode-image{
@@ -69,18 +70,16 @@
       /* color: black; */
     }
 
-    .dark-mode-box{
+    .dark-mode-box {
       background-color: red;
     }
 
-    h2{
-        text-align: center;
-        font-size: 31px;
-        color: #15a715;
-
+    h2 {
+      text-align: center;
+      font-size: 31px;
+      color: #15a715;
     }
 
-    
     .container {
       height: 717px;
       width: 100%;
@@ -103,7 +102,6 @@
       text-align: center;
       transition: all 0.23s ease-out;
     }
-
 
     .box:hover {
       box-shadow: 5px 5px 10px black;
@@ -136,54 +134,54 @@
       border-radius: 12px;
       margin: 5px;
     }
-
   </style>
 
   <body>
-    <!--**************************************************** JavaScript **************************************************************--> 
-  
+    <!--**************************************************** JavaScript **************************************************************-->
 
-  <script>
-  function myFunction() {
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-  }
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
 
-
-
-  </script>
-
-<!-- ***************************************************** HTML ***************************************************************** -->
+    <!-- ***************************************************** HTML ***************************************************************** -->
     <div class="nav">
       <h1>Profiles</h1>
-     
-        <button onclick="myFunction()">Dark Mode</button>
 
+      <button onclick="myFunction()">Dark Mode</button>
     </div>
     <div class="container">
-
       <!-- ----------------------------------------------Profile Nitesh ---------------------------------------------------------- -->
       <div class="box" id="box-1">
         <h2>Nitesh</h2>
         <div class="profiles">
           <a href="https://github.com/Nitesh-13" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo"/>
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/in/niteshmali20021306/" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/in/niteshmali20021306/"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="https://leetcode.com/niteshmali132002/" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="https://www.codechef.com/users/limelight13" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="github-logo" />
+            <img class="image" src="images/codechef.png" alt="github-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
@@ -194,23 +192,33 @@
         <h2>Shivani</h2>
         <div class="profiles">
           <a href="https://github.com/Sangale1811" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/in/shivani-sangale-92031a228/" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/in/shivani-sangale-92031a228/"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="https://leetcode.com/shiv_ani1811/" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="https://www.codechef.com/users/sangale1811" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
           <a href="" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
-          <a href="https://www.hackerrank.com/shivanisangale8?hr_r=1" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+          <a
+            href="https://www.hackerrank.com/shivanisangale8?hr_r=1"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
@@ -221,50 +229,70 @@
         <h2>Ajay</h2>
         <div class="profiles">
           <a href="https://github.com/AjayVarma-2003" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/in/ajay-varma-b427b7225/" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/in/ajay-varma-b427b7225/"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="#" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
           <a href="" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
 
       <!-- ----------------------------------------------Profile Prajakta ---------------------------------------------------------- -->
-      
+
       <div class="box" id="box-4">
         <h2>Prajakta</h2>
         <div class="profiles">
           <a href="https://github.com/prajakta2405" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/m/in/prajakta-surve-34815a226" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/m/in/prajakta-surve-34815a226"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="https://leetcode.com/prajakta_surve/" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
-          <a href="https://www.codechef.com/users/prajakta_1925" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+          <a
+            href="https://www.codechef.com/users/prajakta_1925"
+            target="_blank"
+          >
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
-          <a href="https://www.hackerrank.com/Prajaktsurve1925?hr_r=1" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+          <a
+            href="https://www.hackerrank.com/Prajaktsurve1925?hr_r=1"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
@@ -274,50 +302,67 @@
         <h2>Prasad</h2>
         <div class="profiles">
           <a href="https://github.com/prasadCode22" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/in/prasad-aher-38b56a267/" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/in/prasad-aher-38b56a267/"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="https://leetcode.com/Demo0_codes/" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="https://www.codechef.com/users/prasadoff0" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
-          <a href="https://auth.geeksforgeeks.org/user/prasadcodes/" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+          <a
+            href="https://auth.geeksforgeeks.org/user/prasadcodes/"
+            target="_blank"
+          >
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
-          <a href="https://www.hackerrank.com/aherprasad1212?hr_r=1" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+          <a
+            href="https://www.hackerrank.com/aherprasad1212?hr_r=1"
+            target="_blank"
+          >
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
 
       <!-- ----------------------------------------------Profile Pratik ---------------------------------------------------------- -->
-      
+
       <div class="box" id="box-6">
         <h2>Pratik</h2>
         <div class="profiles">
           <a href="#" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="#" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
           <a href="#" target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
@@ -328,27 +373,36 @@
         <h2>Vivek</h2>
         <div class="profiles">
           <a href="https://github.com/mr-vicky" target="_blank">
-            <img class="image" title="Github" src="images/github.png" alt="github-logo">
+            <img class="image" src="images/github.png" alt="github-logo" />
           </a>
-          <a href="https://www.linkedin.com/in/vivek-sarade-41676920b/" target="_blank">
-            <img class="image" title="Linkedin" src="images/linkedin.png" alt="linkedin-logo" />
+          <a
+            href="https://www.linkedin.com/in/vivek-sarade-41676920b/"
+            target="_blank"
+          >
+            <img class="image" src="images/linkedin.png" alt="linkedin-logo" />
           </a>
 
           <a href="https://leetcode.com/Mr_Vicky/" target="_blank"
-            ><img class="image" title="Leetcode" src="images/leetcode.png" alt="leetcode-logo" />
+            ><img class="image" src="images/leetcode.png" alt="leetcode-logo" />
           </a>
           <a href="https://www.codechef.com/users/vicky_96" target="_blank">
-            <img class="image" title="Codechef" src="images/codechef.png" alt="codechef-logo" />
+            <img class="image" src="images/codechef.png" alt="codechef-logo" />
           </a>
-          <a href="https://auth.geeksforgeeks.org/user/mr_vicky/practice/" target="_blank">
-            <img class="image" title="Geeksforgeeks" src="images/gfg.png" alt="geeksforgeeks-logo" />
+          <a
+            href="https://auth.geeksforgeeks.org/user/mr_vicky/practice/"
+            target="_blank"
+          >
+            <img class="image" src="images/gfg.png" alt="geeksforgeeks-logo" />
           </a>
-          <a href="https://www.hackerrank.com/viveksarade4949"  target="_blank">
-            <img class="image" title="Hackerrank" src="images/hackerrank.png" alt="hackerrank-logo" />
+          <a href="https://www.hackerrank.com/viveksarade4949" target="_blank">
+            <img
+              class="image"
+              src="images/hackerrank.png"
+              alt="hackerrank-logo"
+            />
           </a>
         </div>
       </div>
     </div>
-
   </body>
 </html>
