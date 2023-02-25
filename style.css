@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Dela Gothic One', cursive;
+        font-family: 'Headland One', serif;
+        font-size: 35px;
+
+    }
+
+    .nav{
+      align-items: center;
+      align-content: center;
+    }
+
+    .nav button{
+      background-color: #1c1515;
+      color: white;
+      border: 1px solid white;
+      height: 45px;
+      width: 120px;
+      border-radius: 14px;
+      margin-left: 505px;
+      margin-top: 23px;
+      font-size: 17px;
+      transition: all 0.23s ease-out;
+
+    }
+
+    .nav button:hover{
+      cursor: pointer;
+      transform: scale(1.03, 1.03);
+    }
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        color: #15a715;
+        margin-left: 45%;
+        display: inline-block;
+    }
+
+    /* .dark-mode-image{
+      height: 45px;
+      width: 45px;
+      border-radius: 30px;
+      margin-left: 38%;
+      margin-top: 12px;
+    } */
+
+    .dark-mode {
+      background-color: black;
+      color: #15a715;
+      /* color: black; */
+    }
+
+    .dark-mode-box{
+      background-color: red;
+    }
+
+    h2{
+        text-align: center;
+        font-size: 31px;
+        color: #15a715;
+
+    }
+
+    
+    .container {
+      height: 717px;
+      width: 100%;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      align-items: center;
+    }
+
+    .box {
+      background-color: rgb(223 233 229);
+      margin: 0px;
+      padding: 23px;
+      width: 410px;
+      height: 149px;
+      border-radius: 39px;
+      box-shadow: 5px 5px 10px grey;
+      text-align: center;
+      transition: all 0.23s ease-out;
+    }
+
+
+    .box:hover {
+      box-shadow: 5px 5px 10px black;
+      transform: scale(1.034, 1.034);
+    }
+
+    .profiles {
+      /* background-color: aqua;  */
+      height: 116px;
+      width: 380;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+    .box .image {
+      width: 53px;
+      height: 53px;
+      background-color: black;
+      border-radius: 12px;
+      margin: 5px;
+      transition-duration: 0.1s;
+      transition-timing-function: cubic-bezier(0.39, 0.58, 0.57, 1);
+    }
+
+    .image:hover {
+      /* box-shadow: 4px 4px 4px grey; */
+      border: 2px solid white;
+      width: 60px;
+      height: 60px;
+      border-radius: 12px;
+      margin: 5px;
+    }
+
