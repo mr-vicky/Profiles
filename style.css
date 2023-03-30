@@ -1,18 +1,17 @@
     * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Dela Gothic One', cursive;
-        font-family: 'Headland One', serif;
-        font-size: 35px;
-
+      margin: 0;
+      padding: 0;
+      font-family: "Dela Gothic One", cursive;
+      font-family: "Headland One", serif;
+      font-size: 35px;
     }
 
-    .nav{
+    .nav {
       align-items: center;
       align-content: center;
     }
 
-    .nav button{
+    .nav button {
       background-color: #1c1515;
       color: white;
       border: 1px solid white;
@@ -23,29 +22,19 @@
       margin-top: 23px;
       font-size: 17px;
       transition: all 0.23s ease-out;
-
     }
 
-    .nav button:hover{
+    .nav button:hover {
       cursor: pointer;
       transform: scale(1.03, 1.03);
     }
 
-    h1{
-        font-size: 40px;
-        text-align: center;
-        color: #15a715;
-        margin-left: 45%;
-        display: inline-block;
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      color: #15a715;
+      margin: auto;
     }
-
-    /* .dark-mode-image{
-      height: 45px;
-      width: 45px;
-      border-radius: 30px;
-      margin-left: 38%;
-      margin-top: 12px;
-    } */
 
     .dark-mode {
       background-color: black;
@@ -53,18 +42,16 @@
       /* color: black; */
     }
 
-    .dark-mode-box{
+    .dark-mode-box {
       background-color: red;
     }
 
-    h2{
-        text-align: center;
-        font-size: 31px;
-        color: #15a715;
-
+    h2 {
+      text-align: center;
+      font-size: 31px;
+      color: #15a715;
     }
 
-    
     .container {
       height: 717px;
       width: 100%;
@@ -78,7 +65,7 @@
 
     .box {
       background-color: rgb(223 233 229);
-      margin: 0px;
+      margin: 10px 10px 10px;
       padding: 23px;
       width: 410px;
       height: 149px;
@@ -87,7 +74,6 @@
       text-align: center;
       transition: all 0.23s ease-out;
     }
-
 
     .box:hover {
       box-shadow: 5px 5px 10px black;
@@ -120,4 +106,3 @@
       border-radius: 12px;
       margin: 5px;
     }
-
