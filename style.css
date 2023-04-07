@@ -106,3 +106,40 @@
       border-radius: 12px;
       margin: 5px;
     }
+
+
+    /* _____________________________________________________MOBILE CSS_________________________________________________________ */
+    @media only screen and (max-width: 426px) {
+        .box {
+          background-color: rgb(223 233 229);
+          margin: 10px 10px 10px;
+          padding: 23px;
+          width: 80%;
+          height: 112px;
+          border-radius: 12px;
+          box-shadow: 5px 5px 10px grey;
+          text-align: center;
+          transition: all 0.23s ease-out;
+    
+        }
+
+        .box .image{
+          width: 43px;
+          height: 43px;
+          border-radius: 7px;
+        }
+
+        .image:hover {
+          border: 2px solid white;
+          width: 46px;
+          height: 46px;
+          border-radius: 12px;
+          margin: 5px;
+        }
+
+        .profiles
+        {
+          height: 96px;
+        }
+      
+  }
