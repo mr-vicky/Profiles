@@ -6,9 +6,18 @@
       font-size: 35px;
     }
 
+    /* body{
+      overflow-y: hidden; 
+  overflow-x: hidden;
+    } */
+
     .nav {
       align-items: center;
       align-content: center;
+    }
+
+    #logo{
+      display: inline;
     }
 
     .nav button {
@@ -34,6 +43,23 @@
       text-align: center;
       color: #15a715;
       margin: auto;
+
+      /* New */
+      font-size: 40px;
+      text-align: center;
+      color: #15a715;
+      margin: auto;
+      font-size: 40px;
+      text-align: center;
+      color: #15a715;
+      margin: auto;
+      margin-bottom: 15px;
+      padding: 5px;
+      background-color: rgb(225 242 235);
+      box-shadow: 5px 5px 10px grey;
+      border-bottom-left-radius: 55px;
+      border-bottom-right-radius: 56px;
+      /* New ENDS */
     }
 
     .dark-mode {
@@ -65,7 +91,7 @@
 
     .box {
       background-color: rgb(223 233 229);
-      margin: 10px 10px 10px;
+      margin: 25px 9px 10px;
       padding: 23px;
       width: 410px;
       height: 149px;
@@ -73,6 +99,7 @@
       box-shadow: 5px 5px 10px grey;
       text-align: center;
       transition: all 0.23s ease-out;
+  
     }
 
     .box:hover {
@@ -107,7 +134,7 @@
       margin: 5px;
     }
 
-
+/* ------------- RESUME - MAIL------------- */
     #resume, a{
       margin-top: 4px;
       font-weight: bold;
@@ -116,6 +143,8 @@
       text-decoration: none;
       padding: 2px;
       /* background-color: rgb(175, 208, 175); */
+
+      
     }
 
     #resume a:hover{
@@ -125,8 +154,29 @@
         border-radius: 5px;
         /* text-decoration:underline; */
     }
+/*------------------------- FOOTER ------------------------ */
+    .footer {
+      color: white;
+    font-size: 14px;
+    background-color: #489f48;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px;
+    }
 
+    .footer p{
+      color: white;
+      font-size: 14px;
+    }
 
+    .footer p a{
+      color: white;
+      /* font-weight: bold; */
+      font-size: 14px;
+    }
+
+    
 
     /* _____________________________________________________MOBILE CSS_________________________________________________________ */
     @media only screen and (max-width: 426px) {
@@ -141,6 +191,23 @@
           text-align: center;
           transition: all 0.23s ease-out;
     
+        }
+
+        h1{
+          font-size: 40px;
+          text-align: center;
+          color: #15a715;
+          margin: auto;
+          font-size: 36px;
+          text-align: center;
+          color: #15a715;
+          margin: auto;
+          margin-bottom: 17px;
+          padding: 5px;
+          background-color: rgb(225 242 235);
+          box-shadow: 4px 4px 15px grey;
+          border-bottom-left-radius: 23px;
+          border-bottom-right-radius: 23px;
         }
 
         .box .image{
@@ -161,5 +228,13 @@
         {
           height: 96px;
         }
+        
+        #resume a{
+          border: 1px solid green;
+          padding: 2px;
+          border-radius: 5px;
+          /* text-decoration: underline;
+      }
+
       
   }
